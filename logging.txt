@@ -1,0 +1,390 @@
+Request method:	POST
+Request URI:	http://40.75.76.166/hemaecriapi/api/Login/CheckLogin
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userName": "admin",
+    "password": "super",
+    "ldapSecurityMode": 0,
+    "ldapDomain": "",
+    "trusted": "",
+    "adfsEnabled": false,
+    "adfsurl": "",
+    "ldapAuthURL": ""
+}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: 0
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Date: Fri, 29 Apr 2022 03:49:27 GMT
+Accept-Ranges: none
+Content-Length: 1219
+Via: HTTP/1.1 forward.http.proxy:3128
+Connection: keep-alive
+
+{
+    "message": null,
+    "title": null,
+    "status": true,
+    "corp_id": 18,
+    "serviceAreaName": "BEST PRACTICE                                     ",
+    "hemslogin": "admin",
+    "text": "HEMS ECRI (BEST PRACTICE)",
+    "ecrI_Login_main": "eq2test",
+    "ecrI_Password_main": "eq2test",
+    "ecrI_Login": "eq2test",
+    "ecrI_Password": "eq2test",
+    "ecrI_Vendorid": "AB25ACE9-A171-4a52-8D74-F6D8787F40DA",
+    "ecrI_Vendorid_sb": "6335DF2D-2C70-4160-9A64-B6D921422BCA",
+    "ecrI_OrganizationID": "999477",
+    "usesameecrilogin": true,
+    "send_status_to_ecri": true,
+    "is_tagout": false,
+    "tag_out_text": "Immediate Action: Tag out the equipment item from the service. Someone from Biomedical Services (Clinical Engineering) will be coming to take care of this Alert/Recall. DEFAULT TEXT 24 NOV D DD SS WIN  TEST TEXT 10 FEB",
+    "send_alert_to_owner": true,
+    "country": "UNITED STATES",
+    "hassecurityrights": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwibmJmIjoxNjUxMjA0MTY3LCJleHAiOjE2NTEzNzY5NjcsImlhdCI6MTY1MTIwNDE2N30.j0sVJYQeTSTslrSxh3p_rRxi5QUJk0JiMAZl3deDA5Y",
+    "sessionGUIDSB": "fccbfa53-6ddd-4a89-8bbd-920b36f2d34b",
+    "cReportServer": "https://www.eq2cloud.com/HSSALES2016BIO/reports.aspx",
+    "cReportPath": "https://www.eq2cloud.com/HSSALES2016BIO/reports.aspx",
+    "isExist": false
+}
+Request method:	GET
+Request URI:	http://40.75.76.166/hemaecriapi/api/Manufacturer/GetCountryList
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwibmJmIjoxNjUxMjA0MTY3LCJleHAiOjE2NTEzNzY5NjcsImlhdCI6MTY1MTIwNDE2N30.j0sVJYQeTSTslrSxh3p_rRxi5QUJk0JiMAZl3deDA5Y
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: 0
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Date: Fri, 29 Apr 2022 03:49:28 GMT
+Accept-Ranges: none
+Content-Length: 2343
+Via: HTTP/1.1 forward.http.proxy:3128
+Connection: keep-alive
+
+[
+    {
+        "country": ""
+    },
+    {
+        "country": "ARGENTINA"
+    },
+    {
+        "country": "ARUBA"
+    },
+    {
+        "country": "AUSTRALIA"
+    },
+    {
+        "country": "AUSTRIA"
+    },
+    {
+        "country": "BAHRAIN"
+    },
+    {
+        "country": "BANGLADESH"
+    },
+    {
+        "country": "BELARUS"
+    },
+    {
+        "country": "BELGIUM"
+    },
+    {
+        "country": "BRAZIL"
+    },
+    {
+        "country": "BULGARIA"
+    },
+    {
+        "country": "CANADA"
+    },
+    {
+        "country": "CHILE"
+    },
+    {
+        "country": "COLOMBIA"
+    },
+    {
+        "country": "COSTA RICA"
+    },
+    {
+        "country": "CROATIA"
+    },
+    {
+        "country": "CUBA"
+    },
+    {
+        "country": "CYPRUS"
+    },
+    {
+        "country": "CZECH REPUBLIC"
+    },
+    {
+        "country": "DENMARK"
+    },
+    {
+        "country": "DOMINICAN REPUBLIC"
+    },
+    {
+        "country": "ECUADOR"
+    },
+    {
+        "country": "EGYPT"
+    },
+    {
+        "country": "EL SALVADOR"
+    },
+    {
+        "country": "ENGLAND"
+    },
+    {
+        "country": "ESTONIA"
+    },
+    {
+        "country": "FINLAND"
+    },
+    {
+        "country": "FRANCE"
+    },
+    {
+        "country": "GERMANY"
+    },
+    {
+        "country": "GREAT BRITAIN"
+    },
+    {
+        "country": "GREECE"
+    },
+    {
+        "country": "GUATEMALA"
+    },
+    {
+        "country": "HONDURAS"
+    },
+    {
+        "country": "HUNGARY"
+    },
+    {
+        "country": "ICELAND"
+    },
+    {
+        "country": "INDIA"
+    },
+    {
+        "country": "INDONESIA"
+    },
+    {
+        "country": "IRAN"
+    },
+    {
+        "country": "IRELAND"
+    },
+    {
+        "country": "ISLE OF MAN"
+    },
+    {
+        "country": "ISRAEL"
+    },
+    {
+        "country": "ITALY"
+    },
+    {
+        "country": "JAPAN"
+    },
+    {
+        "country": "JORDAN"
+    },
+    {
+        "country": "KAZAKHSTAN"
+    },
+    {
+        "country": "KENYA"
+    },
+    {
+        "country": "KUWAIT"
+    },
+    {
+        "country": "LATVIA"
+    },
+    {
+        "country": "LEBANON"
+    },
+    {
+        "country": "LIECHTENSTEIN"
+    },
+    {
+        "country": "LITHUANIA"
+    },
+    {
+        "country": "LUXEMBOURG"
+    },
+    {
+        "country": "MALAYSIA"
+    },
+    {
+        "country": "MALTA"
+    },
+    {
+        "country": "MAURITIUS"
+    },
+    {
+        "country": "MEXICO"
+    },
+    {
+        "country": "NEPAL"
+    },
+    {
+        "country": "NEW ZEALAND"
+    },
+    {
+        "country": "NIGERIA"
+    },
+    {
+        "country": "NORTHERN IRELAND"
+    },
+    {
+        "country": "NORWAY"
+    },
+    {
+        "country": "OMAN"
+    },
+    {
+        "country": "PAKISTAN"
+    },
+    {
+        "country": "PARAGUAY"
+    },
+    {
+        "country": "PEOPLE'S REPUBLIC OF CHINA"
+    },
+    {
+        "country": "PEOPLE'S REPUBLIC OF KOREA"
+    },
+    {
+        "country": "PERU"
+    },
+    {
+        "country": "PHILIPPINES"
+    },
+    {
+        "country": "POLAND"
+    },
+    {
+        "country": "PORTUGAL"
+    },
+    {
+        "country": "PUERTO RICO"
+    },
+    {
+        "country": "REPUBLIC OF KOREA"
+    },
+    {
+        "country": "REPUBLIC OF PANAMA"
+    },
+    {
+        "country": "REPUBLIC OF SINGAPORE"
+    },
+    {
+        "country": "ROMANIA"
+    },
+    {
+        "country": "RUSSIA"
+    },
+    {
+        "country": "SAUDI ARABIA"
+    },
+    {
+        "country": "SCOTLAND"
+    },
+    {
+        "country": "SERBIA"
+    },
+    {
+        "country": "SLOVAKIA"
+    },
+    {
+        "country": "SLOVENIA"
+    },
+    {
+        "country": "SOUTH AFRICA"
+    },
+    {
+        "country": "SPAIN"
+    },
+    {
+        "country": "SRI LANKA"
+    },
+    {
+        "country": "SWEDEN"
+    },
+    {
+        "country": "SWITZERLAND"
+    },
+    {
+        "country": "TAIWAN"
+    },
+    {
+        "country": "THAILAND"
+    },
+    {
+        "country": "THE BAHAMAS"
+    },
+    {
+        "country": "THE NETHERLANDS"
+    },
+    {
+        "country": "TURKEY"
+    },
+    {
+        "country": "UKRAINE"
+    },
+    {
+        "country": "UNITED ARAB EMIRATES"
+    },
+    {
+        "country": "UNITED KINGDOM"
+    },
+    {
+        "country": "UNITED STATES"
+    },
+    {
+        "country": "URUGUAY"
+    },
+    {
+        "country": "VIETNAM"
+    },
+    {
+        "country": "WALES"
+    },
+    {
+        "country": "ZIMBABWE"
+    }
+]
